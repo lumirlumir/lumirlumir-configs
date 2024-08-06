@@ -21,6 +21,6 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           ASSIGNEES: ${{ github.repository_owner }}
           COMMIT_PREFIX: 'sync:'
-          PR_BODY: check out [`${{ env.SHORT_SHA }}`](${{ github.repositoryUrl }}/commit/${{ github.sha }}) @${{ github.repository_owner }} :hatching_chick:.
+          PR_BODY: check out [`${{ env.SHORT_SHA }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }}) @${{ github.repository_owner }} :hatching_chick:.
 
 # See https://docs.github.com/ko/actions/writing-workflows/choosing-what-your-workflow-does/contexts#github-context for more detailed context
