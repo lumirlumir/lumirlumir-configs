@@ -21,4 +21,4 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           ASSIGNEES: lumirlumir
           COMMIT_PREFIX: 'sync:'
-          PR_BODY: check out [`${{ env.SHORT_SHA }}`](https://github.com/lumirlumir/test-sync/commit/${{ github.sha }}) @lumirlumir :hatching_chick:.
+          PR_BODY: check out [`${{ env.SHORT_SHA }}`](https://github.com/lumirlumir/lumirlumir-configs/commit/${{ github.sha }}) @lumirlumir :hatching_chick:.
