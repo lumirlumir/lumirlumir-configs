@@ -14,6 +14,7 @@ group:
       - source: ./configs/.editorconfig
         dest: .editorconfig
     repos: |
+      lumirlumir/lumirlumir-configs
       lumirlumir/npm-filextlint
       lumirlumir/npm-koregexp
       lumirlumir/npm-textlint-rule-allowed-uris
@@ -53,6 +54,7 @@ group:
       - source: ./configs/VScode.code-workspace
         dest: VScode.code-workspace
     repos: |
+      lumirlumir/lumirlumir-configs
       lumirlumir/npm-filextlint
       lumirlumir/npm-koregexp
       lumirlumir/npm-textlint-rule-allowed-uris
