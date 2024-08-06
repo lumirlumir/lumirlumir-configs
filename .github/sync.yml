@@ -6,3 +6,4 @@ group:
     repos: |
       lumirlumir/npm-koregexp
       lumirlumir/npm-textlint-rule-allowed-uris
+      lumirlumir/web-blog-data-md
