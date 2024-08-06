@@ -1,0 +1,8 @@
+group:
+  # .editorconfig
+  - files:
+      - source: ./configs/.editorconfig
+        dest: .editorconfig
+    repos: |
+      lumirlumir/npm-koregexp
+      lumirlumir/npm-textlint-rule-allowed-uris
