@@ -3,6 +3,7 @@ name: sync-server
 on:
   push:
     branches: [main]
+    paths: ['clients/**', 'configs/**']
 
 jobs:
   sync-server:
