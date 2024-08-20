@@ -1,22 +1,11 @@
-name: lint
+name: publish
 
 on:
-  push:
-    branches: [main]
-
-  pull_request:
-    branches: [main]
+  release:
+    types: [published]
 
 jobs:
-  lint:
-    # strategy:
-    #   matrix:
-    #     type:
-    #       - eslint
-    #       - prettier
-    #       - editorconfig
-    #       - markdownlint
-
+  publish:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,6 +17,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
+          registry-url: https://registry.npmjs.org
 
       - name: Set up cache
         uses: actions/cache@v4
@@ -38,8 +28,10 @@ jobs:
       - name: Set up node_modules
         run: npm ci
 
-      - name: Lint
-        run: npm run lint
+      - name: Test
+        run: npm run test
 
-      # - name: Lint ${{ matrix.type }}
-      #   run: npm run lint-${{ matrix.type }} --if-present
+      - name: Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
