@@ -1,7 +1,3 @@
-# .github/workflows
-mkdir -p .github/workflows
-cp configs/.github/workflows/lint.yml .github/workflows
-
 # .github
 mkdir -p .github
 cp configs/.github/dependabot.yml .github

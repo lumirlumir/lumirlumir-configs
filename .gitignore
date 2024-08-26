@@ -9,7 +9,6 @@ build
 
 # sync-client
 
-# .github/workflows/lint.yml
 # .github/dependabot.yml
 .husky
 .vscode
