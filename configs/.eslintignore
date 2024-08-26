@@ -1,9 +1,3 @@
-# dependencies
 node_modules
-
-# production
 build
-.next
-
-# package
 package-lock.json
