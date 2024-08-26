@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "preprepare": "npm run sync-client",
     "prepare": "husky",
     "build": "npx babel src -d build --no-comments --compact true --minified && node build/index.js",
     "lint": "concurrently \"npm:lint-*\"",
@@ -10,7 +11,8 @@
     "lint-markdownlint": "npx markdownlint **/*.md",
     "fix": "concurrently \"npm:fix-*\"",
     "fix-eslint": "npx eslint . --fix --ext .js",
-    "fix-prettier": "npx prettier . --write"
+    "fix-prettier": "npx prettier . --write",
+    "sync-client": "bash sync-client.sh"
   },
   "dependencies": {
     "yaml": "^2.5.0"
