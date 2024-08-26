@@ -1,21 +1,5 @@
-# dependencies
 node_modules
-
-# production
 build
-.next
-
-# env
-.env
-.env.development
-.env.production
-
-# test
-.nyc_output
-coverage
-
-# package
+.markdownlintignore
 package-lock.json
-
-# markdown
 *.md
