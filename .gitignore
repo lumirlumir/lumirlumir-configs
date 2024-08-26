@@ -1,8 +1,24 @@
 # dependencies
-/node_modules
+node_modules
 
 # production
-/build
+build
 
-# misc
-/.github/sync-server.yml
+# sync-server
+.github/sync-server.yml
+
+# sync-client
+
+# .github/dependabot.yml
+.husky
+.vscode
+.editorconfig
+.eslintignore
+.eslintrc.js
+.markdownlint.json
+.markdownlintignore
+.nvmrc
+.prettierignore
+.prettierrc.js
+babel.config.js
+VScode.code-workspace
