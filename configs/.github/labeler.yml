@@ -1,0 +1,52 @@
+# https://github.com/jimschubert/labeler-action
+
+enable:
+  issues: false
+  prs: true
+
+comments:
+  prs: 'Labels have been automatically applied based on the [conventional commit types](https://www.conventionalcommits.org/en/v1.0.0/) and [personal commit rules](https://blog.lumir.page/docs/conventions/git/convention-of-git-commit-message).🏷️'
+
+labels:
+  'build':
+    include:
+      - '\bbuild\b'
+  'chore':
+    include:
+      - '\bchore\b'
+  'ci':
+    include:
+      - '\bci\b'
+  'design':
+    include:
+      - '\bdesign\b'
+  'docs':
+    include:
+      - '\bdocs\b'
+  'feat':
+    include:
+      - '\bfeat\b'
+  'fix':
+    include:
+      - '\bfix\b'
+  'perf':
+    include:
+      - '\bperf\b'
+  'refactor':
+    include:
+      - '\brefactor\b'
+  'remove':
+    include:
+      - '\bremove\b'
+  'rename':
+    include:
+      - '\brename\b'
+  'style':
+    include:
+      - '\bstyle\b'
+  'test':
+    include:
+      - '\btest\b'
+  'release':
+    include:
+      - '\brelease\b'
