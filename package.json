@@ -15,7 +15,7 @@
     "sync-client": "bash sync-client.sh"
   },
   "dependencies": {
-    "yaml": "^2.5.1"
+    "yaml": "^2.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.25.7",
