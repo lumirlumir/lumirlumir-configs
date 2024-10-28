@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.25.9",
-    "@babel/core": "^7.25.8",
+    "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "concurrently": "^9.0.1",
     "editorconfig-checker": "^6.0.0",
