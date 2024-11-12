@@ -3,7 +3,7 @@
   "scripts": {
     "preprepare": "npm run sync-client",
     "prepare": "husky",
-    "build": "npx babel src -d build --no-comments --compact true --minified && node build/index.js",
+    "build": "npx babel src -d build && node build/index.js",
     "lint": "concurrently \"npm:lint-*\"",
     "lint-eslint": "npx eslint . --ext .js",
     "lint-prettier": "npx prettier . --check",
