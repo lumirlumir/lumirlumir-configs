@@ -1,0 +1,12 @@
+lumirlumir/lumirlumir-configs:
+  - source: ./.github/sync-client.yml
+    dest: ./clients/web-moing.lumir.page.yml
+  # ./.github/workflows
+  - source: ./.github/workflows/sync-client.yml
+    dest: ./configs/.github/workflows/sync-client.yml
+  # ./.github
+  - source: ./.github/CODEOWNERS
+    dest: ./configs/.github/CODEOWNERS
+  # ./
+  - source: ./.nvmrc
+    dest: ./configs/.nvmrc
