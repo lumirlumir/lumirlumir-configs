@@ -2,11 +2,36 @@ lumirlumir/lumirlumir-configs:
   - source: ./.github/sync-client.yml
     dest: ./clients/web-moing.lumir.page.yml
   # ./.github/workflows
+  - source: ./.github/workflows/lint.yml
+    dest: ./configs/.github/workflows/lint.yml
   - source: ./.github/workflows/sync-client.yml
     dest: ./configs/.github/workflows/sync-client.yml
   # ./.github
   - source: ./.github/CODEOWNERS
     dest: ./configs/.github/CODEOWNERS
+  - source: ./.github/dependabot.yml
+    dest: ./configs/.github/dependabot.yml
+  # ./.vscode
+  - source: ./.vscode/extensions.json
+    dest: ./configs/.vscode/web-extensions.json
+  - source: ./.vscode/settings.json
+    dest: ./configs/.vscode/settings.json
   # ./
+  - source: ./.editorconfig
+    dest: ./configs/.editorconfig
+  - source: ./.markdownlint.json
+    dest: ./configs/.markdownlint.json
+  - source: ./.markdownlintignore
+    dest: ./configs/.markdownlintignore
   - source: ./.nvmrc
     dest: ./configs/.nvmrc
+  - source: ./.prettierignore
+    dest: ./configs/.prettierignore
+  - source: ./.prettierrc.js
+    dest: ./configs/.prettierrc.js
+  - source: ./CODE_OF_CONDUCT.md
+    dest: ./configs/CODE_OF_CONDUCT.md
+  - source: ./jsconfig.json
+    dest: ./configs/jsconfig.json
+  - source: ./VScode.code-workspace
+    dest: ./configs/VScode.code-workspace
