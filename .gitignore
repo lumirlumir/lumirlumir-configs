@@ -20,5 +20,4 @@ build
 .nvmrc
 .prettierignore
 .prettierrc.js
-babel.config.js
 VScode.code-workspace
