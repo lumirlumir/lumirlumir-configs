@@ -3,7 +3,7 @@
   "scripts": {
     "preprepare": "npm run sync-client",
     "prepare": "husky",
-    "build": "npx babel src -d build && node build/index.js",
+    "build": "node src/index.js",
     "lint": "concurrently \"npm:lint-*\"",
     "lint-eslint": "npx eslint . --ext .js",
     "lint-prettier": "npx prettier . --check",
@@ -18,9 +18,6 @@
     "yaml": "^2.6.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.25.9",
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
     "concurrently": "^9.1.0",
     "editorconfig-checker": "^6.0.0",
     "eslint": "^8.57.1",

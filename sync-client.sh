@@ -19,5 +19,4 @@ cp configs/.markdownlintignore .
 cp configs/.nvmrc .
 cp configs/.prettierignore .
 cp configs/.prettierrc.js .
-cp configs/babel.config.js .
 cp configs/VScode.code-workspace .
