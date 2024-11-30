@@ -1,3 +1,5 @@
+# See https://docs.github.com/actions/writing-workflows/choosing-what-your-workflow-does/contexts#github-context.
+
 name: sync-server
 
 on:
@@ -43,4 +45,3 @@ jobs:
           ASSIGNEES: ${{ github.repository_owner }}
           COMMIT_PREFIX: ${{ github.workflow }}${{':'}}
           PR_BODY: check out [`${{ env.SHORT_SHA }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }}) @${{ github.repository_owner }} :hatching_chick:.
-# See https://docs.github.com/ko/actions/writing-workflows/choosing-what-your-workflow-does/contexts#github-context for more detailed context
