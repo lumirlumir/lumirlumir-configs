@@ -1,9 +1,6 @@
 # dependencies
 node_modules
 
-# production
-build
-
 # sync-server
 .github/sync-server.yml
 

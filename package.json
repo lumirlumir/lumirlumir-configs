@@ -1,8 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "preprepare": "npm run sync-client",
-    "prepare": "husky",
+    "prepare": "npm run sync-client && husky",
     "build": "node src/index.js",
     "lint": "concurrently \"npm:lint-*\"",
     "lint-eslint": "npx eslint . --ext .js",
