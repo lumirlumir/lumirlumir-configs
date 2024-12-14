@@ -19,4 +19,5 @@ cp configs/.markdownlintignore .
 cp configs/.nvmrc .
 cp configs/.prettierignore .
 cp configs/.prettierrc.js .
+cp configs/.textlintrc.js .
 cp configs/VScode.code-workspace .
