@@ -8,6 +8,7 @@
     "lint:prettier": "npx prettier . --check",
     "lint:editorconfig": "npx editorconfig-checker",
     "lint:markdownlint": "npx markdownlint **/*.md",
+    "lint:textlint": "npx textlint -f pretty-error **/*.md",
     "fix": "concurrently \"npm:fix:*\"",
     "fix:eslint": "npx eslint . --fix --ext .js",
     "fix:prettier": "npx prettier . --write",
@@ -26,7 +27,9 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.2.11",
     "markdownlint-cli": "^0.43.0",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "textlint": "^14.4.0",
+    "textlint-rule-allowed-uris": "^1.0.6"
   },
   "lint-staged": {
     "*": [
@@ -34,6 +37,9 @@
       "npx editorconfig-checker"
     ],
     "*.js": "npx eslint",
-    "*.md": "npx markdownlint"
+    "*.md": [
+      "npx markdownlint",
+      "npx textlint -f pretty-error"
+    ]
   }
 }

@@ -17,4 +17,5 @@ node_modules
 .nvmrc
 .prettierignore
 .prettierrc.js
+.textlintrc.js
 VScode.code-workspace
