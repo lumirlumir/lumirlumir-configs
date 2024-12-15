@@ -33,6 +33,8 @@ lumirlumir/lumirlumir-configs:
   # ./
   - source: ./.editorconfig
     dest: ./configs/.editorconfig
+  - source: ./.gitattributes
+    dest: ./configs/.gitattributes
   - source: ./.markdownlint.json
     dest: ./configs/.markdownlint.json
   - source: ./.markdownlintignore
