@@ -30,16 +30,5 @@
     "prettier": "^3.4.2",
     "textlint": "^14.4.0",
     "textlint-rule-allowed-uris": "^1.0.6"
-  },
-  "lint-staged": {
-    "*": [
-      "npx prettier --check",
-      "npx editorconfig-checker"
-    ],
-    "*.js": "npx eslint",
-    "*.md": [
-      "npx markdownlint",
-      "npx textlint -f pretty-error"
-    ]
   }
 }

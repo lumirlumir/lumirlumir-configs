@@ -18,4 +18,5 @@ node_modules
 .prettierignore
 .prettierrc.js
 .textlintrc.js
+lint-staged.config.js
 VScode.code-workspace
