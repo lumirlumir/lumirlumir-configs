@@ -1,0 +1,18 @@
+lumirlumir/lumirlumir-configs:
+  - source: ./.github/sync-client.yml
+    dest: ./clients/npm-koregexp.yml
+  # ./.github/workflows
+  - source: ./.github/workflows/sync-client.yml
+    dest: ./configs/.github/workflows/sync-client.yml
+  # ./.github
+  - source: ./.github/CODEOWNERS
+    dest: ./configs/.github/CODEOWNERS
+  # ./
+  - source: ./.editorconfig
+    dest: ./configs/.editorconfig
+  - source: ./.nvmrc
+    dest: ./configs/.nvmrc
+  - source: ./LICENSE.md
+    dest: ./configs/LICENSE.md
+  - source: ./VScode.code-workspace
+    dest: ./configs/VScode.code-workspace
