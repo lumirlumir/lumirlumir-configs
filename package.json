@@ -29,6 +29,6 @@
     "markdownlint-cli": "^0.43.0",
     "prettier": "^3.4.2",
     "textlint": "^14.4.0",
-    "textlint-rule-allowed-uris": "^1.0.6"
+    "textlint-rule-allowed-uris": "^1.0.7"
   }
 }
