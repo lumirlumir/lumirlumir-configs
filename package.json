@@ -1,5 +1,6 @@
 {
   "private": true,
+  "packageManager": "npm@10.9.2",
   "scripts": {
     "prepare": "npm run sync-client && husky",
     "build": "node src -d",
