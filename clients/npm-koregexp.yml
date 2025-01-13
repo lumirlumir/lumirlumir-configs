@@ -7,6 +7,8 @@ lumirlumir/lumirlumir-configs:
   # ./.github
   - source: ./.github/CODEOWNERS
     dest: ./configs/.github/CODEOWNERS
+  - source: ./.github/FUNDING.yml
+    dest: ./configs/.github/FUNDING.yml
   # ./
   - source: ./.editorconfig
     dest: ./configs/.editorconfig
