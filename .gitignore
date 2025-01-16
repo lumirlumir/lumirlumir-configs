@@ -5,18 +5,15 @@ node_modules
 .github/sync-server.yml
 
 # sync-client
-
-# .github/dependabot.yml
 .husky
 .vscode
 .editorconfig
-.eslintignore
-.eslintrc.js
 .markdownlint.json
 .markdownlintignore
 .nvmrc
 .prettierignore
 .prettierrc.js
 .textlintrc.js
-lint-staged.config.js
 VScode.code-workspace
+eslint.config.js
+lint-staged.config.js
