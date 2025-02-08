@@ -11,17 +11,21 @@ lumirlumir/lumirlumir-configs:
   # ./.github/workflows
   - source: ./.github/workflows/lint.yml
     dest: ./configs/.github/workflows/lint.yml
+  - source: ./.github/workflows/pull-request.yml
+    dest: ./configs/.github/workflows/pull-request.yml
   - source: ./.github/workflows/sync-client.yml
     dest: ./configs/.github/workflows/sync-client.yml
   # ./.github
   - source: ./.github/CODEOWNERS
     dest: ./configs/.github/CODEOWNERS
-  - source: ./.github/dependabot.yml
-    dest: ./configs/.github/dependabot.yml
   - source: ./.github/FUNDING.yml
     dest: ./configs/.github/FUNDING.yml
   - source: ./.github/PULL_REQUEST_TEMPLATE.md
     dest: ./configs/.github/PULL_REQUEST_TEMPLATE.md
+  - source: ./.github/dependabot.yml
+    dest: ./configs/.github/dependabot.yml
+  - source: ./.github/release.yml
+    dest: ./configs/.github/release.yml
   # ./.husky
   - source: ./.husky/pre-commit
     dest: ./configs/.husky/pre-commit
@@ -47,7 +51,7 @@ lumirlumir/lumirlumir-configs:
     dest: ./configs/.prettierrc.js
   - source: ./CODE_OF_CONDUCT.md
     dest: ./configs/CODE_OF_CONDUCT.md
-  - source: ./jsconfig.json
-    dest: ./configs/jsconfig.json
   - source: ./VScode.code-workspace
     dest: ./configs/VScode.code-workspace
+  - source: ./jsconfig.json
+    dest: ./configs/jsconfig.json
