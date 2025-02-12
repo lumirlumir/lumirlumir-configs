@@ -24,7 +24,7 @@
   "devDependencies": {
     "concurrently": "^9.1.2",
     "editorconfig-checker": "^6.0.1",
-    "eslint": "^9.20.0",
+    "eslint": "^9.20.1",
     "eslint-config-bananass": "^0.0.2",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
