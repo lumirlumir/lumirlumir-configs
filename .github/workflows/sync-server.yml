@@ -7,6 +7,9 @@ on:
     branches: [main]
     paths: ['clients/**', 'configs/**']
 
+permissions:
+  contents: read
+
 jobs:
   sync-server:
     runs-on: ubuntu-latest
