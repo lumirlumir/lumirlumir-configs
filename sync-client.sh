@@ -19,5 +19,5 @@ cp configs/.prettierignore .
 cp configs/.prettierrc.js .
 cp configs/.textlintrc.js .
 cp configs/VScode.code-workspace .
-cp configs/eslint.config.js .
+cp configs/eslint.config.mjs .
 cp configs/lint-staged.config.js .
