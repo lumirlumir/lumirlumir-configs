@@ -7,15 +7,15 @@
   "scripts": {
     "prepare": "npm run sync-client && husky",
     "build": "node src -d",
+    "fix": "concurrently \"npm:fix:*\"",
+    "fix:eslint": "npx eslint --fix",
+    "fix:prettier": "npx prettier . --write",
     "lint": "concurrently \"npm:lint:*\"",
     "lint:eslint": "npx eslint",
     "lint:prettier": "npx prettier . --check",
     "lint:editorconfig": "npx editorconfig-checker",
     "lint:markdownlint": "npx markdownlint **/*.md",
     "lint:textlint": "npx textlint -f pretty-error **/*.md",
-    "fix": "concurrently \"npm:fix:*\"",
-    "fix:eslint": "npx eslint --fix",
-    "fix:prettier": "npx prettier . --write",
     "sync-client": "bash sync-client.sh"
   },
   "dependencies": {
