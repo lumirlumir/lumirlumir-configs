@@ -45,7 +45,7 @@ const createYmlFile = () => {
     // Should use LF line endings because every file in the repository uses LF line endings due to the `.editorconfig` file.
     outputYmlFile += `${yml.stringify(ymlFileParsedProcessed)}\n`;
 
-    // Debug mode
+    // Debug mode.
     if (secondArgv === '-d' || secondArgv === '--debug') {
       log('inputYmlFilePath:');
       log(inputYmlFilePath);
