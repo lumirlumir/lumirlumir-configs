@@ -1,0 +1,50 @@
+lumirlumir/lumirlumir-configs:
+  - source: ./.github/sync-client.yml
+    dest: ./clients/lumirlumir.yml
+  # ./.github/workflows
+  - source: ./.github/workflows/lint.yml
+    dest: ./configs/.github/workflows/lint.yml
+  - source: ./.github/workflows/pull-request.yml
+    dest: ./configs/.github/workflows/pull-request.yml
+  - source: ./.github/workflows/sync-client.yml
+    dest: ./configs/.github/workflows/sync-client.yml
+  # ./.github
+  - source: ./.github/CODEOWNERS
+    dest: ./configs/.github/CODEOWNERS
+  - source: ./.github/FUNDING.yml
+    dest: ./configs/.github/FUNDING.yml
+  - source: ./.github/dependabot.yml
+    dest: ./configs/.github/dependabot.yml
+  # ./.husky
+  - source: ./.husky/pre-commit
+    dest: ./configs/.husky/pre-commit
+  # ./.vscode
+  - source: ./.vscode/extensions.json
+    dest: ./configs/.vscode/npm-extensions.json
+  - source: ./.vscode/settings.json
+    dest: ./configs/.vscode/settings.json
+  # ./
+  - source: ./.editorconfig
+    dest: ./configs/.editorconfig
+  - source: ./.gitattributes
+    dest: ./configs/.gitattributes
+  - source: ./.gitignore
+    dest: ./configs/.gitignore
+  - source: ./.markdownlint.json
+    dest: ./configs/.markdownlint.json
+  - source: ./.markdownlintignore
+    dest: ./configs/.markdownlintignore
+  - source: ./.nvmrc
+    dest: ./configs/.nvmrc
+  - source: ./.prettierignore
+    dest: ./configs/.prettierignore
+  - source: ./.prettierrc.js
+    dest: ./configs/.prettierrc.js
+  - source: ./.textlintrc.js
+    dest: ./configs/.textlintrc.js
+  - source: ./VScode.code-workspace
+    dest: ./configs/VScode.code-workspace
+  - source: ./eslint.config.mjs
+    dest: ./configs/eslint.config.mjs
+  - source: ./lint-staged.config.js
+    dest: ./configs/lint-staged.config.js
