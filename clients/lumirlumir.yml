@@ -15,9 +15,6 @@ lumirlumir/lumirlumir-configs:
     dest: ./configs/.github/FUNDING.yml
   - source: ./.github/dependabot.yml
     dest: ./configs/.github/dependabot.yml
-  # ./.husky
-  - source: ./.husky/pre-commit
-    dest: ./configs/.husky/pre-commit
   # ./.vscode
   - source: ./.vscode/extensions.json
     dest: ./configs/.vscode/npm-extensions.json
