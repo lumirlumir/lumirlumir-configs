@@ -46,4 +46,4 @@ lumirlumir/lumirlumir-configs:
   - source: ./lint-staged.config.mjs
     dest: ./configs/lint-staged.config.mjs
   - source: ./tsconfig.json
-    dest: ./configs/tsconfig.esm.json
+    dest: ./configs/tsconfig.json
