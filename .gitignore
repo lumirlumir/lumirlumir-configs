@@ -12,8 +12,8 @@ node_modules
 .markdownlintignore
 .nvmrc
 .prettierignore
-.prettierrc.js
-.textlintrc.js
+.prettierrc.cjs
+.textlintrc.cjs
 VScode.code-workspace
 eslint.config.mjs
-lint-staged.config.js
+lint-staged.config.mjs
