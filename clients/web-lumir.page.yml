@@ -1,0 +1,63 @@
+lumirlumir/lumirlumir-configs:
+  - source: ./.github/sync-client.yml
+    dest: ./clients/web-lumir.page.yml
+  # ./.github/ISSUE_TEMPLATE
+  - source: ./.github/ISSUE_TEMPLATE/1-bug.md
+    dest: ./configs/.github/ISSUE_TEMPLATE/1-bug.md
+  - source: ./.github/ISSUE_TEMPLATE/2-suggestion.md
+    dest: ./configs/.github/ISSUE_TEMPLATE/2-suggestion.md
+  - source: ./.github/ISSUE_TEMPLATE/3-others.md
+    dest: ./configs/.github/ISSUE_TEMPLATE/3-others.md
+  # ./.github/workflows
+  - source: ./.github/workflows/pull-request.yml
+    dest: ./configs/.github/workflows/pull-request.yml
+  - source: ./.github/workflows/sync-client.yml
+    dest: ./configs/.github/workflows/sync-client.yml
+  - source: ./.github/workflows/version-multirepo.yml
+    dest: ./configs/.github/workflows/version-multirepo.yml
+  # ./.github
+  - source: ./.github/CODEOWNERS
+    dest: ./configs/.github/CODEOWNERS
+  - source: ./.github/dependabot.yml
+    dest: ./configs/.github/dependabot.yml
+  - source: ./.github/FUNDING.yml
+    dest: ./configs/.github/FUNDING.yml
+  - source: ./.github/PULL_REQUEST_TEMPLATE.md
+    dest: ./configs/.github/PULL_REQUEST_TEMPLATE.md
+  - source: ./.github/release.yml
+    dest: ./configs/.github/release.yml
+  # ./.husky
+  - source: ./.husky/pre-commit
+    dest: ./configs/.husky/pre-commit
+  # ./.vscode
+  - source: ./.vscode/extensions.json
+    dest: ./configs/.vscode/web-extensions.json
+  - source: ./.vscode/settings.json
+    dest: ./configs/.vscode/settings.json
+  # ./
+  - source: ./.clang-format
+    dest: ./configs/.clang-format
+  - source: ./.clang-format-ignore
+    dest: ./configs/.clang-format-ignore
+  - source: ./.editorconfig
+    dest: ./configs/.editorconfig
+  - source: ./.gitignore
+    dest: ./configs/.gitignore
+  - source: ./.markdownlint.json
+    dest: ./configs/.markdownlint.json
+  - source: ./.markdownlintignore
+    dest: ./configs/.markdownlintignore
+  - source: ./.nvmrc
+    dest: ./configs/.nvmrc
+  - source: ./.prettierignore
+    dest: ./configs/.prettierignore
+  - source: ./CODE_OF_CONDUCT.md
+    dest: ./configs/CODE_OF_CONDUCT.md
+  - source: ./VScode.code-workspace
+    dest: ./configs/VScode.code-workspace
+  - source: ./jsconfig.json
+    dest: ./configs/jsconfig.json
+  - source: ./prettier.config.mjs
+    dest: ./configs/prettier.config.mjs
+  - source: ./stylelint.config.mjs
+    dest: ./configs/stylelint.config.mjs
