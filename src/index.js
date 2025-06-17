@@ -1,29 +1,33 @@
 /**
  * @fileoverview Main script file for the GitHub Actions `sync-server` action. This script creates a single YML file from multiple YML files.
- *
- * run: `node src`
- * run(debug mode): `node src -d` or `node src --debug`
+ * - run: `node src`
+ * - run(debug mode): `node src -d` or `node src --debug`
  */
 
 // @ts-check
 
 // --------------------------------------------------------------------------------
-// Require
+// Import
 // --------------------------------------------------------------------------------
 
-const fs = require('node:fs');
-const path = require('node:path');
-const { log } = require('node:console');
-const yml = require('yaml');
+import fs from 'node:fs';
+import path from 'node:path';
+import { log } from 'node:console';
+import yml from 'yaml';
 
 // --------------------------------------------------------------------------------
-// Declaration
+// Helpers
 // --------------------------------------------------------------------------------
 
 const USER_NAME = 'lumirlumir';
 const REPOSITORY_NAME = 'lumirlumir-configs';
-const clientsDirPath = path.resolve(__dirname, '..', 'clients');
-const outputYmlFilePath = path.resolve(__dirname, '..', '.github', 'sync-server.yml');
+const clientsDirPath = path.resolve(import.meta.dirname, '..', 'clients');
+const outputYmlFilePath = path.resolve(
+  import.meta.dirname,
+  '..',
+  '.github',
+  'sync-server.yml',
+);
 const inputYmlFilePaths = fs
   .readdirSync(clientsDirPath)
   .map(filePath => path.resolve(clientsDirPath, filePath));
