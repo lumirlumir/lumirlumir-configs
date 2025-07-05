@@ -11,8 +11,6 @@ lumirlumir/lumirlumir-configs:
   # ./.github
   - source: ./.github/CODEOWNERS
     dest: ./configs/.github/CODEOWNERS
-  - source: ./.github/FUNDING.yml
-    dest: ./configs/.github/FUNDING.yml
   - source: ./.github/dependabot.yml
     dest: ./configs/.github/dependabot.yml
   # ./.vscode
