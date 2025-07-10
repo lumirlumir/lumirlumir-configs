@@ -57,5 +57,3 @@ lumirlumir/lumirlumir-configs:
     dest: ./configs/jsconfig.json
   - source: ./prettier.config.mjs
     dest: ./configs/prettier.config.mjs
-  - source: ./stylelint.config.mjs
-    dest: ./configs/stylelint.config.mjs
