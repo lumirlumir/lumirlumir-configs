@@ -20,7 +20,7 @@
     "sync-client": "bash sync-client.sh"
   },
   "dependencies": {
-    "yaml": "^2.8.0"
+    "yaml": "^2.8.1"
   },
   "devDependencies": {
     "concurrently": "^9.2.0",
