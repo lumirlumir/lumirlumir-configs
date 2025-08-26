@@ -23,7 +23,7 @@
     "yaml": "^2.8.1"
   },
   "devDependencies": {
-    "concurrently": "^9.2.0",
+    "concurrently": "^9.2.1",
     "editorconfig-checker": "^6.1.0",
     "eslint": "^9.34.0",
     "eslint-config-bananass": "^0.4.0",
