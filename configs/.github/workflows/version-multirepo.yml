@@ -93,11 +93,11 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GH_PAT }}
-          commit-message: "chore(release): bump package versions from `v${{ env.OLD_VERSION }}` to `v${{ env.NEW_VERSION }}`"
-          branch: "chore-release-bump-package-versions-from-v${{ env.OLD_VERSION }}-to-v${{ env.NEW_VERSION }}-${{ env.SHORT_SHA }}"
-          base: "main"
+          commit-message: 'chore(release): bump package versions from `v${{ env.OLD_VERSION }}` to `v${{ env.NEW_VERSION }}`'
+          branch: 'chore-release-bump-package-versions-from-v${{ env.OLD_VERSION }}-to-v${{ env.NEW_VERSION }}-${{ env.SHORT_SHA }}'
+          base: 'main'
           assignees: ${{ github.actor }}
-          title: "chore(release): bump package versions from `v${{ env.OLD_VERSION }}` to `v${{ env.NEW_VERSION }}` (`${{ inputs.semver }}`)"
+          title: 'chore(release): bump package versions from `v${{ env.OLD_VERSION }}` to `v${{ env.NEW_VERSION }}` (`${{ inputs.semver }}`)'
           body: |
             ## Release Information: `v${{ env.NEW_VERSION }}`
 
