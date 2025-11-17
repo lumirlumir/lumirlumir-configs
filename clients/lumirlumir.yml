@@ -33,8 +33,6 @@ lumirlumir/lumirlumir-configs:
     dest: ./configs/.nvmrc
   - source: ./.prettierignore
     dest: ./configs/.prettierignore
-  - source: ./.textlintrc.cjs
-    dest: ./configs/.textlintrc.cjs
   - source: ./VScode.code-workspace
     dest: ./configs/VScode.code-workspace
   - source: ./eslint.config.mjs

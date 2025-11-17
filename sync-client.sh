@@ -16,7 +16,6 @@ cp configs/.markdownlint.json .
 cp configs/.markdownlintignore .
 cp configs/.nvmrc .
 cp configs/.prettierignore .
-cp configs/.textlintrc.cjs .
 cp configs/VScode.code-workspace .
 cp configs/eslint.config.mjs .
 cp configs/lint-staged.config.mjs .
