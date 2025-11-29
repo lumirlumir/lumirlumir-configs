@@ -2,17 +2,17 @@
 node_modules
 
 # sync-server
-.github/sync-server.yml
+/.github/sync-server.yml
 
 # sync-client
-.husky
-.vscode
-.editorconfig
-.markdownlint.json
-.markdownlintignore
-.nvmrc
-.prettierignore
-VScode.code-workspace
-eslint.config.mjs
-lint-staged.config.mjs
-prettier.config.mjs
+/.husky
+/.vscode
+/.editorconfig
+/.markdownlint.json
+/.markdownlintignore
+/.nvmrc
+/.prettierignore
+/VScode.code-workspace
+/eslint.config.mjs
+/lint-staged.config.mjs
+/prettier.config.mjs
