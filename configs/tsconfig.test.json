@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.test.ts"],
+  "exclude": [],
+  "compilerOptions": {
+    /* Type Checking */
+    "noUnusedParameters": false, // Turning it off since it's a test.
+
+    /* Modules */
+    "rootDir": ".",
+
+    /* Emit */
+    "noEmit": true
+  }
+}
