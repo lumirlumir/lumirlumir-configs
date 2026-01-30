@@ -8,6 +8,8 @@ lumirlumir/lumirlumir-configs:
     dest: ./configs/.github/workflows/pull-request.yml
   - source: ./.github/workflows/sync-client.yml
     dest: ./configs/.github/workflows/sync-client.yml
+  - source: ./.github/workflows/test.yml
+    dest: ./configs/.github/workflows/test.yml
   # ./.github
   - source: ./.github/CODEOWNERS
     dest: ./configs/.github/CODEOWNERS
@@ -28,6 +30,8 @@ lumirlumir/lumirlumir-configs:
     dest: ./configs/.editorconfig
   - source: ./.gitattributes
     dest: ./configs/.gitattributes
+  - source: ./.gitignore
+    dest: ./configs/.gitignore
   - source: ./.markdownlint.json
     dest: ./configs/.markdownlint.json
   - source: ./.markdownlintignore
