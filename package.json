@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "editorconfig-checker": "^6.1.1",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.0",
     "eslint-config-bananass": "^0.5.2",
     "eslint-markdown": "^0.3.0",
     "husky": "^9.1.7",
