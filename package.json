@@ -4,7 +4,7 @@
   "type": "module",
   "packageManager": "npm@10.9.2",
   "engines": {
-    "node": ">=20.19.4"
+    "node": ">=20.19.6"
   },
   "scripts": {
     "prepare": "npm run sync-client && husky",
